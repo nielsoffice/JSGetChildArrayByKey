@@ -10,6 +10,7 @@ JavaScript jQuery get children element by it's current key using jQuery method g
 ```
 
 ```JS
+// let getKey = jQuery('#main').children().eq(1);
 let getKey = jQuery('#main').children().get(1);
 
 console.log( getKey );
